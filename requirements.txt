@@ -1,0 +1,17 @@
+# Shared
+opencv-python
+numpy
+Pillow
+tqdm
+kaggle
+matplotlib
+
+# Diffusion Model (PyTorch)
+torch
+torchvision
+diffusers[torch]
+accelerate
+transformers
+
+# GAN & VAE (TensorFlow)
+tensorflow

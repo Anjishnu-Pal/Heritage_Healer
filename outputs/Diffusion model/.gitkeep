@@ -1,0 +1,14 @@
+# This folder will contain the following artifacts after training:
+#
+#   diffusion_photo_restorer_epoch_1.pth
+#   diffusion_photo_restorer_epoch_2.pth
+#   ...                                      ← UNet2D state dicts, one per epoch
+#   diffusion_photo_restorer_epoch_10.pth
+#
+#   diffusion_photo_restorer/
+#   └── logs/                               ← TensorBoard training logs
+#
+#   restored_output.jpg                     ← Output from inference.py
+#
+# Run:  python "src/Diffusion model/train.py"     to generate weights
+#       python "src/Diffusion model/inference.py"  to generate restored_output.jpg

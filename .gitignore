@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset (large binary files — store separately)
+img_align_celeba/
+data/photo_restoration_dataset/
+photo_restoration_dataset/
+
+# Saved model weights (PyTorch)
+*.pth
+*.pt
+
+# Saved model weights (Keras/TensorFlow)
+*.h5
+*.keras
+
+# TensorFlow checkpoints
+training_checkpoints/
+
+# Output plots (optional: remove if you want to track outputs)
+outputs/*.png
+outputs/*.jpg
+
+# Restored inference outputs
+restored_output.jpg
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo

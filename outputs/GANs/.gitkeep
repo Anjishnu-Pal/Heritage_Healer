@@ -1,0 +1,16 @@
+# This folder will contain the following artifacts after training:
+#
+#   training_checkpoints/
+#   ├── checkpoint                          ← Tracks the latest checkpoint
+#   ├── ckpt-1.index
+#   ├── ckpt-1.data-00000-of-00001          ← Checkpoint saved at epoch 5
+#   ├── ckpt-2.index
+#   └── ckpt-2.data-00000-of-00001          ← Checkpoint saved at epoch 10
+#
+#   restored_output.jpg                     ← Output from inference.py
+#
+# Checkpoints are saved every 5 epochs (configurable in train.py).
+# inference.py loads the latest checkpoint automatically.
+#
+# Run:  python src/GANs/train.py      to generate checkpoints
+#       python src/GANs/inference.py  to generate restored_output.jpg

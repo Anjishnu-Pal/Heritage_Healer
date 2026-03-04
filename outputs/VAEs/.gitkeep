@@ -1,0 +1,21 @@
+# This folder will contain the following artifacts after training:
+#
+#   model6.h5                               ← Full Keras model (architecture + weights)
+#
+#   restored_output.jpg                     ← Output from inference.py
+#
+# Reload the saved model with:
+#
+#   from tensorflow import keras
+#   from src.VAEs.inference import Reparameterization, vae_loss
+#
+#   model = keras.models.load_model(
+#       'model6.h5',
+#       custom_objects={
+#           'Reparameterization': Reparameterization,
+#           'vae_loss': vae_loss
+#       }
+#   )
+#
+# Run:  python src/VAEs/train.py      to generate model6.h5
+#       python src/VAEs/inference.py  to generate restored_output.jpg
